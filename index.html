@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Anime Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Anime Finder</h1>
+        <input type="text" id="anime-query" placeholder="Masukkan judul anime...">
+        <button id="search-btn">Cari Anime</button>
+
+        <div class="anime-container" id="anime-container">
+            <h2 id="anime-title"></h2>
+            <img id="anime-cover" src="" alt="Anime Cover">
+            <div class="anime-info">
+                <p><strong>Format:</strong> <span id="anime-format"></span></p>
+                <p><strong>Episodes:</strong> <span id="anime-episodes"></span></p>
+                <p><strong>Duration:</strong> <span id="anime-duration"></span> minutes</p>
+                <p><strong>Status:</strong> <span id="anime-status"></span></p>
+                <p><strong>Season:</strong> <span id="anime-season"></span> <span id="anime-year"></span></p>
+                <p><strong>Genres:</strong> <span id="anime-genres"></span></p>
+                <p id="anime-description"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

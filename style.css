@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#anime-query {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#search-btn {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#search-btn:hover {
+    background-color: #2980b9;
+}
+
+.anime-container {
+    margin-top: 20px;
+    display: none;
+}
+
+.anime-info p {
+    margin: 5px 0;
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+}
